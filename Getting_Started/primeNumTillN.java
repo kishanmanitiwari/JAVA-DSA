@@ -8,8 +8,8 @@ class Main
 	public static void main (String[] args) throws java.lang.Exception
 	{
 	Scanner scn = new Scanner(System.in);
-    int low = scn.nextInt();//3
-    int high = scn.nextInt();//7
+   	 int low = scn.nextInt();//3
+   	 int high = scn.nextInt();//7
 
 
        for(int i = low;i<=high;i++){ //3-7
