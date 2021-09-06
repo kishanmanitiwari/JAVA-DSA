@@ -27,6 +27,7 @@ class Main
 
              //= pos*pow(10,rem-1);
              //we mltiply by pos bcz thats the value and  evaluate pos by Value upto (r-1) decimal places
+		//r-1 bcz we are conside pos from 10^0 ->10^n-1
 
              value += place*(int)Math.pow(10,rem-1); //1*10^0 = 1  // 2*10^4 = 20000
              place++; //2
