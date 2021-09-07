@@ -1,4 +1,3 @@
- 
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -14,9 +13,9 @@ class Main
 
        
 
-        for(int i=n;i>=1;i--){ //5 //5->1 Note- i-- is imp
+        for(int i=n;i>=1;i--){ //5 //5->1 Note- i-- is imp //Controling number of rows 1-5
 
-            for(int j=1;j<=i;j++){ //Moves itnr from 1-5,1-4,1-3,1-,2,1-1 on each itrn
+            for(int j=1;j<=i;j++){ //Moves itnr from 1-5,1-4,1-3,1-,2,1-1 on each itrn and printing stars accordinglya
              
                      System.out.print("*\t");
             }
