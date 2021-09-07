@@ -22,7 +22,7 @@ class Main
     else if(n2>n3)max=n2;
     else max=n3;
 
-    // PPart 2-> Determine Hypo and evaluate condtion using a flag
+    // Part 2-> Determine Hypo and evaluate condtion using a flag
 
     boolean flag = false;
 
