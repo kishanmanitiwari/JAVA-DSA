@@ -12,15 +12,17 @@ class Main
         int n = scn.nextInt();
 
 
-		for(int i=1;i<=n;i++){ //5  //Runs 1-5 (5 times)
+	for(int i=1;i<=n;i++){ //5  //Runs 1-5 (5 times)
 
 
-            for(int j=1;j<=i;j++){ //Controls Row for ith num eg if outer loop has 3 then j wil run till 3
+        for(int j=1;j<=i;j++){ //Controls Row for ith num eg if outer loop has 3 then j wil run till 3    
 
-                System.out.print("*\t"); //\t stands for tab used to give relatively large space
+        System.out.print("*\t"); //\t stands for tab used to give relatively large space
             }
 
-            System.out.println(); //Go to next row after each intreation!
+            System.out.println(); //Go to next row after each intreation!  
+		
+		
 
         }
 
