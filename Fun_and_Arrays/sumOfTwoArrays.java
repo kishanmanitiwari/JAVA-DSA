@@ -31,7 +31,7 @@ public static void main(String[] args) throws Exception {
     int k = sum.length-1;
     
     
-   while(k>=0){ //jabtak ans arra bacha hai
+   while(k>=0){ //jabtak ans array bacha hai
        int d = c;
 
        if(i>=0) d+=a1[i]; //jabtak n1 bacha hai
