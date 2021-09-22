@@ -23,20 +23,20 @@ public static void main(String[] args) throws Exception {
     }
     
     
-    int [] sum = new int[n1>n2?n1:n2];
+    int [] sum = new int[n1>n2?n1:n2]; //Sum array is of largest num
     int c = 0;
     
-    int i = a1.length-1;
+    int i = a1.length-1; //Last Digit
     int j = a2.length-1;
     int k = sum.length-1;
     
     
-   while(k>=0){
+   while(k>=0){ //jabtak ans arra bacha hai
        int d = c;
 
-       if(i>=0) d+=a1[i];
+       if(i>=0) d+=a1[i]; //jabtak n1 bacha hai
      
-       if(j>=0) d+=a2[j];
+       if(j>=0) d+=a2[j]; //jabtak n2 bacha hai
 
        c = d/10; //Quotient gives carry
        d = d%10; //Rem gives digit
@@ -51,14 +51,10 @@ public static void main(String[] args) throws Exception {
     if(c!=0)   System.out.print(c); //If carry is left then print that!
     
     
-    for(int val:sum)  System.out.print(val);
+    for(int val:sum)  System.out.print(val); //for each loop prints value not the index
   
     
-    
-    
-    
-    
-    
+   
     
     
  }
